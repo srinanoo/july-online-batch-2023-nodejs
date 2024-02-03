@@ -1,0 +1,55 @@
+Project Titles:
+
+- Mansour           - 
+- Christy Subha     - 
+- Prem              - 
+- Sasiprathi        - 
+- Sudha Sankari     - 
+- Venkatesh         - 
+
+
+Task: 03-02-2024
+
+- Delete an Object in an Array using the Filter method
+- Update an Object without directly assigning the entire object
+- Download Postman and get the account registered and activation
+
+
+LibUV
+
+- Node as a standalone application
+    - use feature that will be invoked specifically
+
+- Node as a central server
+    - event queue
+        - entry point of the server
+    - event loop
+        - routing (routes)
+    - thread pool
+        - routing (routes) / controllers
+    - server workers
+        - controllers
+            - services (file management / database management)
+
+
+127.0.0.1 - IP address of localhost
+localhost - kind of domain name (domain.com) - virtual host
+80
+8080
+3306
+987
+485
+27017
+
+React Project
+    - CRA - Create React App - port (3000)
+    - Vite - port (5173)
+
+favicon
+
+MERN
+
+ReactJs
+NodeJs
+ExpressJs
+MongoDB

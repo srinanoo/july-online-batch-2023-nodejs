@@ -174,8 +174,10 @@ function DeleteTrainee(email) {
     }
 }
 
-// CreateTrainee();
-// ReadTrainees();
-// ReadSpecificTrainee("Prem");
-// UpdateTrainee();
-// DeleteTrainee("charan@gmail.com");
+module.exports = {
+    CreateTrainee,
+    ReadTrainees,
+    ReadSpecificTrainee,
+    UpdateTrainee,
+    DeleteTrainee
+};
