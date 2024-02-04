@@ -53,3 +53,21 @@ ReactJs
 NodeJs
 ExpressJs
 MongoDB
+
+
+-------
+
+RESTful API
+    - get
+        - querystring
+            ?name=value&name2=value2
+        - retrieving / reading
+    - post
+        - form post / url-encoded
+        - create / adding
+
+    - put / patch
+        - updating
+
+    - delete
+        - deleting
