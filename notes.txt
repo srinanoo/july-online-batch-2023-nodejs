@@ -1,11 +1,13 @@
 Project Titles:
 
-- Mansour           - 
-- Christy Subha     - 
+- Mansour           - Bookstore Website
+- Christy Subha     - Online Shopping Website
 - Prem              - 
 - Sasiprathi        - 
-- Sudha Sankari     - 
+- Sudha Sankari     - Ecommerce Website
 - Venkatesh         - 
+- Gayathri          - College Management System
+- Pawandeep         - 
 
 
 Task: 03-02-2024
@@ -71,3 +73,102 @@ RESTful API
 
     - delete
         - deleting
+
+
+-----
+
+10-02-2024
+
+- Project
+    - Plan
+    - Phase(s)
+    - Features / Functionalities
+    - Robust
+    - Entities (Main Modules)
+        Eg:
+            Trainees Database
+                - Trainee Information
+                - Trainer Information
+                - Classes Information
+                - Batches Information
+
+                - Current Batches
+                    - Class Room No
+                    - Batch Year - 2023
+                    - Timings - 5-7pm
+                    - Days - Weekends
+                    - Batch Start - July
+                    - Trainees List
+                    - Trainer(s) List
+                - Company / Institute Information
+
+    - Project Flow
+        - 2 Probable ways:
+            - Entities based CRUD operations
+                - eg:
+                    Trainee
+                        - Add a Trainee
+                        - Read a Trainee / Read All Trainees
+                        - Update a Trainee
+                        - Delete a / all Trainee 
+                    Trainer
+                        - Add a Trainer
+                        - Read a Trainer / Read All Trainers
+                        - Update a Trainer
+                        - Delete a / all Trainers
+            - Flow based CRUD operations
+                - eg:
+                    Class
+                        - Trainees
+                        - Trainer(s)
+                        - Class
+                            Batch
+                            Year
+                            Timings
+                            Days
+                            Duration
+
+        - College Management
+            - Students
+                CRUD
+            - Departments
+                CRUD
+            - Faculty
+                CRUD
+            - Batch
+                CRUD
+            - Management
+                CRUD
+            - Classes
+                FLOW
+
+    - Routes
+        - Trainees Database
+            /trainees
+                /addTrainee
+                /readTrainee
+                /readAllTrainees
+                /updateTrainee
+                /deleteTrainee
+            /trainers
+                /addTrainer
+                /readTrainer
+                /readAllTrainers
+                /updateTrainer
+                /deleteTrainer
+            /classes
+                /addClass
+                /readClass
+                /readAllClasses
+                /updateClass
+                /deleteClass
+
+express.js - entry of the server / event queue / loop
+routes - thread pools
+controllers - server workers
+    - validate the data whether its as per the requirement of the logic
+        if validates redirect to services
+            after services process the data, it will return back to controllers
+                after receiving the outcome, the response will be sent back to the client
+services
+    - workers of managing the data in file or database
